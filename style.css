@@ -1,0 +1,22 @@
+#cubridor{
+    height: 200px; 
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+     left: 0; 
+     right: 0; 
+     background:linear-gradient(to right, rgba(0, 0, 0, 0.9),rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,0.9)); 
+     pointer-events: none;
+}
+/*estilos de las palabras animadas de portada*/
+#word-animation {
+    font-size: 48px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1; /* Inicialmente oculto */
+    transition: opacity 2s; /* Transición suave de opacidad */
+  }
